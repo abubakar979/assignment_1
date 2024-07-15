@@ -90,3 +90,24 @@
 .description-content-text h1{
     font-family: "Azeret Mono", monospace;
 }
+.my-inspration{
+    width: 100%;
+    font-family: "Azeret Mono", monospace;
+}
+.my-inspration-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.my-inspration-container h1,p{
+    margin-top: 20px;
+    font-family: "Azeret Mono", monospace;
+
+}
+.my-inspration-container p{
+   font-size: 12px; 
+}
+.Inspiration-vedio{
+    margin-top: 30px;
+}
