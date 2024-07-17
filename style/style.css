@@ -82,7 +82,7 @@
     display: flex;
     justify-content:space-between ;
     align-items: center;
-    margin-top: 25px;
+    margin: 25px 0px;
     background-color:#FFFFFF;
     padding: 30px 20px;
     border-radius: 10px;
@@ -110,4 +110,66 @@
 }
 .Inspiration-vedio{
     margin-top: 30px;
+}
+.my-current-target{
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-family: "Azeret Mono", monospace;
+}
+.my-current-target-container{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.my-current-target-container{
+
+    margin-top: 20px;
+}
+.my-current-target-container p{
+
+    font-size: 12px;
+}
+.my-current-target-card{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+.card{
+    width:210px;
+    height: 180px;
+    background:#f1eeeede;
+    padding: 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.card h4{
+    margin-left: 7px;
+    margin-top: 5px;
+
+}
+.card p{
+    font-size: 12px;
+    text-wrap:wrap;
+}
+.card button{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-top: 10px;
+  font-weight: bold;
+  
+}
+.card2 h4{
+    background-color: #E7EEFF;
+    margin-left: 12px;
+}
+.card3{
+  background-color: #e7ffed;
+}
+.card3 h4{
+    margin-left: 0px;
 }
